@@ -1,0 +1,9 @@
+virt/
+
+db.sqlite3
+
+media/
+
+*.pyc
+
+migrations/

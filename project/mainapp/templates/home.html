@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    {% for movie in movies %}
+    <div class="row">
+        {{ movie.title }} -- {{ movie.genre }}
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
